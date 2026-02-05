@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Master | Interactive JavaScript Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Overlay for mobile sidebar -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <div class="brand">
+            <span>JS</span>Master 🚀
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-text">
+                <span>Your Progress</span>
+                <span id="progress-stats" class="progress-stats">0/0</span>
+                <span id="progress-percent">0%</span>
+            </div>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progress-bar"></div>
+            </div>
+        </div>
+
+        <nav id="nav-container">
+            <!-- Navigation will be injected by JS -->
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+        <header>
+            <button class="mobile-menu-btn" id="menu-toggle">☰</button>
+            <div style="font-weight: bold;">Interactive JavaScript Course</div>
+            <div id="lesson-title-header" style="color: var(--primary);">Getting Started</div>
+        </header>
+
+        <div class="content-area" id="content-display">
+            <!-- Lesson content will be injected here -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
